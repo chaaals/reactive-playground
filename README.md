@@ -1,6 +1,7 @@
 # Responsive Product View Component
 
 <img src='/public/readme-images/desktop-layout.png' alt='desktop-layout'/>
+
 ## Overview
 
 This is a mini project contributed to <strong>Dev-Geeks</strong> repo in Hacktoberfest 2022 🔥. It's a responsive and reusable product view component that can be easily used in your ecommerce projects.
