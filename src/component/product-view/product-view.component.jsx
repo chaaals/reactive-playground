@@ -22,15 +22,17 @@ const ProductViewComponent = ({
     <section className="product-wrapper">
       <div className="product-container">
         {/* product image */}
-        <div className="product-content">
-          <img
-            className="product-image"
-            src={product.product_image}
-            alt={product.slug}
-          />
-        </div>
+        <section className="product-image">
+          <div className="product-content">
+            <img
+              className="product-image"
+              src={product.product_image}
+              alt={product.slug}
+            />
+          </div>
+        </section>
 
-        <div className="column-2">
+        <section className="product-sidebar">
           {/* product name and price */}
           <div className="product-content">
             <h1 className="product-name" title={product.product_name}>
@@ -76,7 +78,7 @@ const ProductViewComponent = ({
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </section>
   );
