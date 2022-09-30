@@ -16,10 +16,23 @@ This is a mini project contributed to <strong>Dev-Geeks</strong> repo in Hacktob
   - Increment/decrement item count
 
 - Easy to use
-  - All you need to do is pass an object containing all the properties of your product. Feel free to view and edit the sample schema in the models folder.
-  ```
-    <Product product={data} />
-  ```
+  - All you need to do is pass an object containing all the information of your product. However, make sure to view the sample schema first to know what keys are supported. Feel free to edit how the component consume data to your liking.
+
+## How to get started?
+
+- Clone the repo
+- Install dependencies with `npm i`
+- Locally host the website with `npm run dev`
+
+Note: If you're only after the component, you can just copy the `product-view` folder inside the `component` folder and paste it in your own folder. From there you can simply import the `product` component.
+
+Example:
+
+```
+  import Product from './somePath';
+
+  <Product product={data} />
+```
 
 ## Anatomy of the Product View Component
 
